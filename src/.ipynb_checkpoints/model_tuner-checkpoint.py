@@ -5,7 +5,7 @@ import numpy as np
 class xgb_tuning():
     def __init__(self,obj,features,target,nthread=4):
         self.model_name = 'xgboost'
-        self.metrics = {'rmse'}
+        self.metrics = {'aucpr'}
         self.obj = obj
         self.X = features
         self.y = target
