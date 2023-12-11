@@ -9,3 +9,5 @@ scikit-learn==0.24.2
 scipy==1.7.1
 numpy==1.22.0
 shap==0.38.1
+bayesian_optimization==1.4.2
+xgboost==1.7.3
